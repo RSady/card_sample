@@ -15,7 +15,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        //Set number of cards to be selected by the user...
+        UserDefaults.standard.set(8, forKey: "numberOfCards")
+        
+        
         return true
     }
 

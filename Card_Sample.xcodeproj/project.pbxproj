@@ -8,12 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		312AC10D227CDB6F00632986 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312AC10C227CDB6F00632986 /* AppDelegate.swift */; };
-		312AC10F227CDB6F00632986 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312AC10E227CDB6F00632986 /* ViewController.swift */; };
 		312AC112227CDB6F00632986 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 312AC110227CDB6F00632986 /* Main.storyboard */; };
 		312AC114227CDB7000632986 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 312AC113227CDB7000632986 /* Assets.xcassets */; };
 		312AC117227CDB7000632986 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 312AC115227CDB7000632986 /* LaunchScreen.storyboard */; };
 		312AC120227CDBBB00632986 /* SelectCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312AC11F227CDBBB00632986 /* SelectCardViewController.swift */; };
-		312AC122227CDBDB00632986 /* PlayersCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312AC121227CDBDB00632986 /* PlayersCardsViewController.swift */; };
 		312AC127227CDDCE00632986 /* Suits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312AC126227CDDCE00632986 /* Suits.swift */; };
 		312AC129227CDDEE00632986 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312AC128227CDDEE00632986 /* Deck.swift */; };
 		312AC12B227CDE0500632986 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312AC12A227CDE0500632986 /* Card.swift */; };
@@ -21,18 +19,19 @@
 		312AC131227DCB5200632986 /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312AC130227DCB5200632986 /* CardCollectionViewCell.swift */; };
 		312AC133227DD34700632986 /* Delegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312AC132227DD34700632986 /* Delegates.swift */; };
 		312AC138227E160C00632986 /* UIView Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312AC137227E160C00632986 /* UIView Extensions.swift */; };
+		5A601AC122F7CDB40055AAA8 /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A601AC022F7CDB40055AAA8 /* CardView.xib */; };
+		5A601AC322F7CDDE0055AAA8 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A601AC222F7CDDE0055AAA8 /* CardView.swift */; };
+		5A7F9EAE22F8654B00222235 /* SelectNumberOfCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7F9EAD22F8654B00222235 /* SelectNumberOfCardsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		312AC109227CDB6F00632986 /* Card_Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Card_Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		312AC10C227CDB6F00632986 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		312AC10E227CDB6F00632986 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		312AC111227CDB6F00632986 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		312AC113227CDB7000632986 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		312AC116227CDB7000632986 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		312AC118227CDB7000632986 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		312AC11F227CDBBB00632986 /* SelectCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCardViewController.swift; sourceTree = "<group>"; };
-		312AC121227CDBDB00632986 /* PlayersCardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersCardsViewController.swift; sourceTree = "<group>"; };
 		312AC126227CDDCE00632986 /* Suits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Suits.swift; sourceTree = "<group>"; };
 		312AC128227CDDEE00632986 /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
 		312AC12A227CDE0500632986 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
@@ -40,6 +39,9 @@
 		312AC130227DCB5200632986 /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
 		312AC132227DD34700632986 /* Delegates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delegates.swift; sourceTree = "<group>"; };
 		312AC137227E160C00632986 /* UIView Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView Extensions.swift"; sourceTree = "<group>"; };
+		5A601AC022F7CDB40055AAA8 /* CardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardView.xib; sourceTree = "<group>"; };
+		5A601AC222F7CDDE0055AAA8 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		5A7F9EAD22F8654B00222235 /* SelectNumberOfCardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectNumberOfCardsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,13 +74,12 @@
 		312AC10B227CDB6F00632986 /* Card_Sample */ = {
 			isa = PBXGroup;
 			children = (
-				312AC134227DDEBF00632986 /* Resources */,
+				5A601ABF22F7CD930055AAA8 /* Xibs */,
 				312AC12C227CE51D00632986 /* Extensions */,
 				312AC123227CDBE800632986 /* Data Classes */,
 				312AC11E227CDBA000632986 /* View Controllers */,
 				312AC12F227DCB3F00632986 /* Cells */,
 				312AC10C227CDB6F00632986 /* AppDelegate.swift */,
-				312AC10E227CDB6F00632986 /* ViewController.swift */,
 				312AC110227CDB6F00632986 /* Main.storyboard */,
 				312AC113227CDB7000632986 /* Assets.xcassets */,
 				312AC115227CDB7000632986 /* LaunchScreen.storyboard */,
@@ -90,8 +91,8 @@
 		312AC11E227CDBA000632986 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				312AC121227CDBDB00632986 /* PlayersCardsViewController.swift */,
 				312AC11F227CDBBB00632986 /* SelectCardViewController.swift */,
+				5A7F9EAD22F8654B00222235 /* SelectNumberOfCardsViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -124,11 +125,13 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
-		312AC134227DDEBF00632986 /* Resources */ = {
+		5A601ABF22F7CD930055AAA8 /* Xibs */ = {
 			isa = PBXGroup;
 			children = (
+				5A601AC022F7CDB40055AAA8 /* CardView.xib */,
+				5A601AC222F7CDDE0055AAA8 /* CardView.swift */,
 			);
-			path = Resources;
+			path = Xibs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,6 +194,7 @@
 			files = (
 				312AC117227CDB7000632986 /* LaunchScreen.storyboard in Resources */,
 				312AC114227CDB7000632986 /* Assets.xcassets in Resources */,
+				5A601AC122F7CDB40055AAA8 /* CardView.xib in Resources */,
 				312AC112227CDB6F00632986 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -202,16 +206,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A7F9EAE22F8654B00222235 /* SelectNumberOfCardsViewController.swift in Sources */,
 				312AC129227CDDEE00632986 /* Deck.swift in Sources */,
 				312AC127227CDDCE00632986 /* Suits.swift in Sources */,
-				312AC10F227CDB6F00632986 /* ViewController.swift in Sources */,
 				312AC12E227CE5CB00632986 /* UIViewController Extensions.swift in Sources */,
 				312AC10D227CDB6F00632986 /* AppDelegate.swift in Sources */,
-				312AC122227CDBDB00632986 /* PlayersCardsViewController.swift in Sources */,
 				312AC138227E160C00632986 /* UIView Extensions.swift in Sources */,
 				312AC133227DD34700632986 /* Delegates.swift in Sources */,
 				312AC120227CDBBB00632986 /* SelectCardViewController.swift in Sources */,
 				312AC131227DCB5200632986 /* CardCollectionViewCell.swift in Sources */,
+				5A601AC322F7CDDE0055AAA8 /* CardView.swift in Sources */,
 				312AC12B227CDE0500632986 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
